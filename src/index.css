@@ -11,3 +11,13 @@
     @apply block;
 }
 /* it is used to active the hr tag when the class active is added to the parent element. */
+
+::-webkit-scrollbar {
+    @apply hidden;
+}
+
+@media (max-width: 740px) {
+    .active p{
+        @apply text-white bg-primary
+    }
+}
